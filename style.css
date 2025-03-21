@@ -3,6 +3,9 @@
         flex-direction: column;
         margin: 0;
         padding: 0;
+        min-height: 100vh;
+        height: 100%;
+        overflow-x: hidden;
     }
 
     .header {
@@ -13,6 +16,30 @@
         margin-left: 170px;
         margin-top: 10px;
     }
+
+    .action {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 12px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        padding: 20px;
+        margin-bottom: 20px;
+        margin-right: 200px;
+        margin-left: 200px;
+    }
+
+    .footer {
+        margin-top: auto;
+        background-color: #1F2937;
+        color: #f9faf8;
+        text-align: center;
+        padding: 20px;
+    }
+
 
     ul {
         list-style: none;
@@ -31,6 +58,7 @@
     .hero {
         background-color: #1F2937;
         min-height: 50vh;
+        flex: 1;
     }
 
     .image-placeholder  {
@@ -103,4 +131,13 @@
         font-size: 16px;
         color: #333;
         max-width: 180px;
+    }
+
+    .sign-up2 {
+        background-color: #3882f6;
+        color: #E5E7EB;
+        font-weight: bold;
+        border-radius: 9px;
+        border: 2px solid #f9faf8;
+        text-align: center;
     }
