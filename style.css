@@ -27,7 +27,8 @@
         background-color: #3882f6;
         color: #f9faf8;
         padding: 20px;
-        margin-bottom: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         margin-right: 200px;
         margin-left: 200px;
     }
@@ -150,7 +151,7 @@
         background-color: #E5E7EB;
         padding-bottom: 75px;
         padding-top: 75px;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
         gap: 15px;
     }
 
