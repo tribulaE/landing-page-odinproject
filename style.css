@@ -141,3 +141,26 @@
         border: 2px solid #f9faf8;
         text-align: center;
     }
+
+    .quote {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #E5E7EB;
+        padding-bottom: 75px;
+        padding-top: 75px;
+        margin-bottom: 50px;
+        gap: 15px;
+    }
+
+    .Text {
+        font-size: 26px;
+        font-style: italic;
+        color: #1F2937;
+    }
+    
+    .author {
+        font-weight: bold;
+
+    }
